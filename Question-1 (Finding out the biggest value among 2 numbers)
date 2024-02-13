@@ -1,0 +1,11 @@
+# 1) Write a python programme to findout biggest value among 2 numbers
+
+num1 = int(input())
+num2 = int(input())
+
+if num1 > num2 :
+    print("The biggest value is", num1)
+elif num2 > num1:
+    print("The biggest value is", num2)
+else:
+    print("Both values are equal")
